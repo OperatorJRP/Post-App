@@ -1,0 +1,95 @@
+/* Post Card Styles */
+
+.post-user-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+.post-card-container {
+  background-color: #f5f5f7;
+  padding: 16px;
+  border-radius: 30px;
+}
+.post-card {
+  background: white;
+  border-radius: 30px;
+  padding: 20px;
+  border: 1px solid #e6e6e8;
+  box-shadow: none;
+}
+
+.post-header {
+  
+}
+
+.post-user {
+  display: flex;
+  gap: 12px;
+}
+
+.user-avatar {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: none;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.username {
+  font-weight: 600;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.2;
+}
+
+.post-time {
+  font-size: 14px;
+  color: #6c757d;
+  line-height: 1.2;
+}
+
+
+.post-reaction {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  background-color: #ede9e9;
+  border-radius: 50%;
+}
+
+.post-reaction-text {
+  font-size: 30px;
+  display: inline;
+  
+}
+
+.post-text {
+  margin-top: 12px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  font-weight: 600;
+  margin-left: 0;
+}
+
+.post-actions {
+  display: flex;
+  gap: 20px;
+  margin-top: 12px;
+  margin-left: 12px;
+}
+
+.action-icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
